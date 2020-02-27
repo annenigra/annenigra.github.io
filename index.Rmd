@@ -1,0 +1,20 @@
+---
+title: "Hi, I'm Annie"  
+output:
+  html_document:
+    includes:
+      after_body: footerb.Rhtml
+---
+<img src="Hgmonitorpic.jpg" style="width:40%; border:2px solid #525252" ALIGN = "right" HSPACE="10" VSPACE="10"/>
+<br>
+I'm an environmental epidemiologist focused on metal exposure assessment using both biological and environmental monitoring (arsenic, mercury, tungsten, etc.), and understanding associations between metal exposures and related chronic disease.
+<br>
+<br>
+I am most invested in and motivated by projects which a) inform and evaluate federal regulations intended to reduce exposures and related adverse health outcomes, b) are community- owned/directed/managed, or c) assess environmental injustices and approaches to mitigate health disparities. 
+<br>
+<br>
+I'm currently a Ph.D. candidate at Columbia University's [Mailman School of Public Health](https://www.mailman.columbia.edu/) in the [Department of Environmental Health Sciences](https://www.mailman.columbia.edu/academics/departments/environmental-health-sciences-ehs) and a trainee at the [Columbia University Superfund Research Program](https://www.mailman.columbia.edu/research/columbia-superfund-research-program) (joined September 2016). I hold a Sc.M. in Epidemiology from Johns Hopkins Bloomberg School of Public Health (2016) and a B.A. in Biology from Oberlin College (2014), where I also studied Gender, Sexuality, and Feminist Studies.   
+<br>
+
+
+
