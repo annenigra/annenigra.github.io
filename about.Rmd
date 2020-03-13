@@ -16,7 +16,6 @@ We are evaluating the impact of the US Environmental Protection Agency's (EPA) m
 <br>
 ```{r,echo=FALSE}
 
-
 library(Hmisc)
 library(reshape)
 library(ggplot2)
