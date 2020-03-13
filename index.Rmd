@@ -7,7 +7,7 @@ output:
 ---
 <img src="dolomitesgif.gif" style="width:30%; border:2px solid #525252" ALIGN = "right" HSPACE="10" VSPACE="10"/>
 <br>
-I'm an environmental epidemiologist focused on metal exposure assessment using both biological and environmental monitoring (arsenic, mercury, tungsten, etc.), and understanding associations between metal exposures and related chronic disease.
+I'm an environmental epidemiologist focused on understanding the relationship between metal exposures (arsenic, mercury, tungsten, etc.) and related chronic disease and on assessing population-level metal exposures using both biological and environmental monitoring.
 <br>
 <br>
 I am most invested in and motivated by projects which a) inform and evaluate federal regulations intended to reduce exposures and related adverse health outcomes, b) are community- owned/directed/managed, or c) assess environmental injustices and approaches to mitigate health disparities. 
