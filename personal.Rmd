@@ -6,16 +6,16 @@ output:
       after_body: footerb.Rhtml
 ---
 
-I'm originally from Natrona Heights, PA and currently live in New York City with my dog Roo. My personal interests include hiking, urban cycling, American traditional tattooing, the New York City public park system, and trail running (here's my [favorite hometown race](https://rachelcarsontrails.org/), which connects Rachel Carson's childhood home to mine- cool!). 
+I'm originally from Natrona Heights, PA and currently live in New York City with my dog Roo. My personal interests include hiking, urban cycling, the New York City public park system, and trail running (here's my [favorite hometown trail system](https://rachelcarsontrails.org/)). 
 <br>
 
-<b>While you're here...</b> here are some important links I'd like to share:
+<b>While you're here...</b> here are some important links worth sharing:
 <br>
 <span>&#8226;</span>LBGTQ+ inclusion and visibility in STEM, via [500 Queer Scientists](https://www.500queerscientists.com/) 
 <br>
-<span>&#8226;</span>Principles of environmental justice, via the [The Proceedings to the First National People of Color Environmental Leadership Summit](https://www.ejnet.org/ej/principles.html)
+<span>&#8226;</span>Principles of environmental justice, via [The Proceedings to the First National People of Color Environmental Leadership Summit](https://www.ejnet.org/ej/principles.html)
 <br>
-<span>&#8226;</span>Tools for environmental justice advocates, via [EJ Net](ejnet.org)
+<span>&#8226;</span>Tools for environmental justice advocates, via [EJ Net](https://www.ejnet.org)
 <br>
 <span>&#8226;</span>MMIW – Missing and Murdered Indigenous Women, via [Coalition to Stop Violence Against Native Women](https://www.csvanw.org/mmiw/)
 

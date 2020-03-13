@@ -5,6 +5,8 @@ output:
     includes:
       after_body: footerb.Rhtml
 ---
+Visit my [Google Scholar profile here](https://scholar.google.com/citations?user=7h7BTIXehlsC&hl=en&oi=ao)
+<br>
 
 ### Publications:
 [The effect of the Environmental Protection Agency maximum contaminant level on arsenic exposure in the USA from 2003 to 2014: an analysis of the National Health and Nutrition Examination Survey (NHANES).](https://www.ncbi.nlm.nih.gov/pubmed/29250608)
@@ -51,7 +53,7 @@ Garvin MC, Schijf J, Kaufman SR, Konow C, Liang D, **Nigra AE**, Stracker NH, Wh
 
 <br>
 
-### Grants and research support
+### Grants and research support:
 **F31 ES029799. Ruth L. Kirschstein National Research Service Award (NRSA) Individual Predoctoral Fellowship.** "Arsenic Exposure in US Drinking Water: Spatial Patterns, Temporal Trends, and Related Mortalities." Award period 2018 - 2021.
 *The proposed study will use several nationally representative databases to explore temporal trends and spatial patterns in drinking water arsenic exposure in the US population and the association between arsenic exposure and related disease at the county-level. There is a critical need to identify susceptible subgroups whose water arsenic remains high, by geography, race/ethnicity, or socioeconomic status, to inform further exposure-reduction interventions. Our study will evaluate the potential impact of federal drinking water regulations on drinking water arsenic exposure and the cardiovascular disease epidemic, determining whether reductions in water arsenic exposure are associated with a reduction in total and cardiovascular mortality.*
 

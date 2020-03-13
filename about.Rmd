@@ -8,21 +8,141 @@ output:
 
 
 
-### Arsenic Exposure in US Drinking Water: Spatial Patterns, Temporal Trends, and Related Mortalities
-My dissertation work evaluates the regulatory change for the US EPA's maximum contaminant level (MCL) for arsenic in public drinking water (in 2001, EPA decreased the MCL from 50 to 10 µg/L). This project analyzes spatial patterns and temporal trends in public drinking water arsenic exposure, identifies subgroups that remain susceptible to higher exposure levels, and evaluates the association between water arsenic exposure and cardiovascular and all-cause mortality. We are leveraging several large, national-scale, publicly-available databases and developing new statistical methods to overcome several challenges inherent to this type of secondary data analysis, including:
-<br><span>&#8226;</span><i>Bayesian models to multiply impute values below detection limits</i>
-<br><span>&#8226;</span><i>Novel biomarkers to isolate arsenic internal dose from drinking water</i>
-<br><span>&#8226;</span><i>Aggregating water records to estimate public drinking water arsenic exposures for the entire US population</i>
+### <i>Arsenic Exposure in US Drinking Water: Spatial Patterns, Temporal Trends, and Related Mortalities</i>
+We are evaluating the impact of the US Environmental Protection Agency's (EPA) maximum contaminant level (MCL) for arsenic on arsenic exposure from public drinking water systems (in 2001, EPA decreased the MCL from 50 to 10 µg/L). This project analyzes spatial patterns and temporal trends in public drinking water arsenic exposure, identifies subgroups that remain susceptible to higher exposure levels, and evaluates the association between water arsenic exposure and cardiovascular and all-cause mortality. We are leveraging several large, national-scale, publicly-available databases and developing new statistical methods to overcome several challenges inherent to this type of secondary data analysis, including:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span>&#8226;</span><i>Bayesian models to multiply impute values below detection limits</i>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span>&#8226;</span><i>Novel biomarkers to isolate arsenic internal dose from drinking water</i>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<span>&#8226;</span><i>Estimated public drinking water arsenic exposures for the entire US population</i>
 <br>
-<br>
-Replication code and datasets created for public use as a product of this project are available via my [GitHub](https://github.com/annenigra/epa-public-water-arsenic) upon publication
+```{r,echo=FALSE}
+
+
+library(Hmisc)
+library(reshape)
+library(ggplot2)
+library(plyr)
+library(reshape2)
+library(RColorBrewer)
+library(colorspace)
+library(openxlsx)
+library(plotly)
+library(stringr)
+
+## Pull JSON file
+url <- 'https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json'
+counties <- rjson::fromJSON(file=url)
+save(counties, file="~/Google Drive/Research/EPAAsTrajectories/countiesRJSON.RData")
+load("~/Google Drive/Research/EPAAsTrajectories/countiesRJSON.RData")
+
+county<-read.xlsx("~/Google Drive/Research/EPAAsTrajectories/March2020/CountyAsSYR3.xlsx")
+
+# Assign group10 
+county$group10<-0
+county$group10[county$WeightedAs20062008<=10&county$WeightedAs20092011<=10]<-1 #low/low
+county$group10[county$WeightedAs20062008<=10&county$WeightedAs20092011>10]<-2 #low/high
+county$group10[county$WeightedAs20062008>10&county$WeightedAs20092011<=10]<-3 #high/low
+county$group10[county$WeightedAs20062008>10&county$WeightedAs20092011>10]<-4 #high/high
+
+county$group10[which(county$group10==0)]<-NA
+county$glabel[which(county$group10==1)]<-"Low/Low"
+county$glabel[which(county$group10==2)]<-"Low/High"
+county$glabel[which(county$group10==3)]<-"High/Low"
+county$glabel[which(county$group10==4)]<-"High/High"
+
+# Fix how FIPS names will appear on map
+county$Full.Name[which(county$CountyFIPS=="02201")]<- "AK, Prince of Wales-Outer Ketchikan"
+county$Full.Name[which(county$CountyFIPS=="02232")]<- "AK, Skagway-Hoonah-Angoon"
+county$Full.Name[which(county$CountyFIPS=="02280")]<- "AK, Wrangell-Petersburg"
+# Add spaces between words
+county$CoName<-gsub("([a-z])([A-Z])", "\\1 \\2", county$Full.Name)
+
+# Keep on necessary vars
+myvars<-c("CountyFIPS","WeightedAs20062008","WeightedAs20092011","WeightedAs20062011","CoName","glabel")
+df<-county[myvars]
+colnames(df)[colnames(df)=="CountyFIPS"] <- "fips"
+
+# custom color palette to match static maps, but in continuous scale
+vector1 <- c(0,0.2,0.8,1)
+vector2 <- c("#C3FA9F", "#F6F1A9","#FDC030","#F08080")
+cp <- array(c(vector1,vector2),dim = c(4,2))
+
+# Set custom hover text
+df$hover <- with(df, paste(
+                           "<b>County:</b>", CoName, '<br>',  
+                           "<b>Water arsenic averages:</b>", '<br>',
+                           "<i>  2006-2008:</i>", WeightedAs20062008,"<i>µg/L</i>", '<br>',
+                           "<i>  2009-2011:</i>", WeightedAs20092011,"<i>µg/L</i>", '<br>',
+                           "<i>  2006-2011:</i>", WeightedAs20062011,"<i>µg/L</i>", '<br>',
+                           "<b>MCL compliance category:</b>", glabel))
+
+m <- list(
+  l = 2,
+  r = 10,
+  b = 170,
+  t = 100,
+  pad = 4
+)
+
+a <- list(text ="<i>Based on over 230,000 water arsenic monitoring records from over 36,000
+          community water systems, collected by the US EPA in the Six Year Review of 
+          Contaminant Occurrence database. The contribution of water arsenic from each
+          community water system serving a county is weighted by the number of people
+          served by each system. MCL= maximum contaminant level (10 µg/L). MCL compliance
+          category indicates whether the average arsenic concentration was below (Low)
+          or above (High) the 10 µg/L MCL in each time period (2006-2008 versus 2009-2011).
+          Blank/missing counties did not submit adequate data; for detailed description
+          of data analysis please contact me.</i>",
+          xref = "paper",
+          yref = "paper",
+          showarrow = FALSE,
+          x = 1.3,
+          y = -0.75,
+          bordercolor="white", borderwidth=1
+)
+
+
+fig <- plot_ly() 
+fig <- fig %>% add_trace(
+  type="choroplethmapbox",
+  geojson=counties,
+  locations=df$fips,
+  z=df$WeightedAs20062011,
+  # name=df$CoName,
+  showscale=TRUE,
+  text = ~df$hover,
+  hoverinfo="text", # use "text" to only display that appering in the text (df$hover) string
+  colorscale=cp, #YlGnBu, etc.
+  colorbar=list(thickness=30, tickmode="array",tickvals=c(0,2,4,6,8,10),len=0.8,
+                ticktext=c("0 µg/L","2 µg/L","4 µg/L","6 µg/L","8 µg/L","≥ 10 µg/L"),
+                title=list(text="<b>Water arsenic concentrations,\n              2006-2011\n</b> <br>",size=8,side="top")),
+  zmin=0, zmax=10,
+  marker=list(line=list(width=0.2, color="antiquewhite4"),  #width of county-lines
+              opacity=0.9) # opacity of color within county
+)
+
+fig <- fig %>% layout(
+  mapbox=list(style="carto-positron",zoom =2, center=list(lon= -95.71, lat=37.09)),
+  title=list(text="<b>Interactive map:</b><br>County-level, weighted average arsenic concentrations (µg/L)\n in community water systems, 2006-2011<br><br><br>",family="Arial",size=7),
+  margin=m,
+  annotations=a)
+#
+fig
+
+```
+
+Replication code/archive and datasets created for public use as a product of this project are available via my [GitHub](https://github.com/annenigra/epa-public-water-arsenic) upon publication.
 <br>
 <br>
 
 
-### Mercury exposure assessment: a community-directed research project
+### <i>Mercury exposure assessment: a community-directed research project</i>
 We are working with community-based collaborators in the Great Plains to design and implement a pilot study to characterize mercury exposure in tribal communities using both biomonitoring and environmental monitoring. A key component of this project is the inclusion of local high school students in field work/data collection, data analysis, and results dissemination. We mentor local students through high school science fair projects related to population- and community-level metal exposure assessment and plan to expand this collaboration even further beyond the aims of this specific project.
 <br>
+<img src="soilhg.jpg" style="width:20%; border:2px solid #525252"/>
+<img src="hgair2.jpg" style="width:20%; border:2px solid #525252"/>
+<img src="riverhg.jpg" style="width:35%; border:2px solid #525252"/>
+<img src="hgbags.jpg" style="width:20%; border:2px solid #525252"/>
+
 <br>
 
 
