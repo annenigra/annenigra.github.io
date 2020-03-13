@@ -6,7 +6,7 @@ navbar:
     - text: "Current Projects"
       href: about.html
     - text: "Columbia Arsenic Map"
-      href: InteractiveAsMap.html
+      href: ColumbiaArsenicMap.html
     - text: "Publications, grant support"
       href: publications.html
     - text: "Personal"
