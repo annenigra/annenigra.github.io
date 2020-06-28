@@ -9,6 +9,10 @@ Visit my [Google Scholar profile here](https://scholar.google.com/citations?user
 <br>
 
 ### Publications:
+[Arsenic in US correctional facility drinking water, 2006-2011.](https://www.ncbi.nlm.nih.gov/pubmed/32585331)
+**Nigra AE**, Navas-Acien A. Environmental Research. 2020;188:109768. doi:10.1016/j.envres.2020.109768
+
+
 [The effect of the Environmental Protection Agency maximum contaminant level on arsenic exposure in the USA from 2003 to 2014: an analysis of the National Health and Nutrition Examination Survey (NHANES).](https://www.ncbi.nlm.nih.gov/pubmed/29250608)
 **Nigra AE**, Sanchez TR, Nachman KE, Harvey D, Chillrud SN, Graziano JH, Navas-Acien A.
 Lancet Public Health. 2017 Nov;2(11):e513-e521. doi: 10.1016/S2468-2667(17)30195-0.
