@@ -10,49 +10,52 @@ Visit my [Google Scholar profile here](https://scholar.google.com/citations?user
 
 ### Publications:
 [Arsenic in US correctional facility drinking water, 2006-2011.](https://www.ncbi.nlm.nih.gov/pubmed/32585331)
-**Nigra AE**, Navas-Acien A. Environmental Research. 2020;188:109768. doi:10.1016/j.envres.2020.109768
+**Nigra AE**, Navas-Acien A. Environmental Research. 2020 June;188:109768. doi: 10.1016/j.envres.2020.109768.
+PMID: 32585331
 
 
 [The effect of the Environmental Protection Agency maximum contaminant level on arsenic exposure in the USA from 2003 to 2014: an analysis of the National Health and Nutrition Examination Survey (NHANES).](https://www.ncbi.nlm.nih.gov/pubmed/29250608)
 **Nigra AE**, Sanchez TR, Nachman KE, Harvey D, Chillrud SN, Graziano JH, Navas-Acien A.
 Lancet Public Health. 2017 Nov;2(11):e513-e521. doi: 10.1016/S2468-2667(17)30195-0.
-PMID: 29250608
+PMCID: PMC5729579
 
 [Dietary determinants of inorganic arsenic exposure in the Strong Heart Family Study.](https://www.ncbi.nlm.nih.gov/pubmed/31442790)
 **Nigra AE**, Olmedo P, Grau-Perez M, O'Leary R, O'Leary M., Fretts AM, Umans JG, Best LG, Francesconi KA, Goessler W, Cole SA, Navas-Acien A. Environ Res. 2019 Oct;177:108616.
+PMCID: PMC6748659
 
 [Urinary tungsten and incident cardiovascular disease in the Strong Heart Study: An interaction with urinary molybdenum.](https://www.ncbi.nlm.nih.gov/pubmed/29940477)
 **Nigra AE**, Howard BV, Umans JG, Best L, Francesconi KA, Goessler W, Devereux R, Navas-Acien A.
 Environ Res. 2018 Oct;166:444-451. doi: 10.1016/j.envres.2018.06.015. Epub 2018 Jun 22.
-PMID: 29940477
+PMCID: PMC6347476
 
 [Opportunities and Challenges for Dietary Arsenic Intervention.](https://www.ncbi.nlm.nih.gov/pubmed/30235424)
 Nachman KE, Punshon T, Rardin L, Signes-Pastor AJ, Murray CJ, Jackson BP, Guerinot ML, Burke TA, Chen CY, Ahsan H, Argos M, Cottingham KL, Cubadda F, Ginsberg GL, Goodale BC, Kurzius-Spencer M, Meharg AA, Miller MD, **Nigra AE**, Pendergrast CB, Raab A, Reimer K, Scheckel KG, Schwerdtle T, Taylor VF, Tokar EJ, Warczak TM, Karagas MR.
 Environ Health Perspect. 2018 Aug;126(8):84503. doi: 10.1289/EHP3997.
-PMID: 30235424
+PMCID: PMC6375412
 
 [Mitigating dietary arsenic exposure: Current status in the United States and recommendations for an improved path forward.](https://www.ncbi.nlm.nih.gov/pubmed/28065543)
 Nachman KE, Ginsberg GL, Miller MD, Murray CJ, **Nigra AE**, Pendergrast CB.
 Sci Total Environ. 2017 Mar 1;581-582:221-236. doi: 10.1016/j.scitotenv.2016.12.112. Epub 2017 Jan 5.
-PMID: 28065543
+PMCID: PMC5303536
 
 [Environmental Metals and Cardiovascular Disease in Adults: A Systematic Review Beyond Lead and Cadmium.](https://www.ncbi.nlm.nih.gov/pubmed/27783356)
 **Nigra AE**, Ruiz-Hernandez A, Redon J, Navas-Acien A, Tellez-Plaza M.
 Curr Environ Health Rep. 2016 Dec;3(4):416-433. doi: 10.1007/s40572-016-0117-9. Review.
-PMID: 27783356
+PMCID: PMC5801549
 
 [Poultry Consumption and Arsenic Exposure in the U.S. Population.](https://www.ncbi.nlm.nih.gov/pubmed/27735790)
 **Nigra AE**, Nachman KE, Love DC, Grau-Perez M, Navas-Acien A.
 Environ Health Perspect. 2017 Mar;125(3):370-377. doi: 10.1289/EHP351. Epub 2016 Oct 13.
-PMID: 27735790
+PMCID: PMC5332189
 
 [Nitarsone, Inorganic Arsenic, and Other Arsenic Species in Turkey Meat: Exposure and Risk Assessment Based on a 2014 U.S. Market Basket Sample.](https://www.ncbi.nlm.nih.gov/pubmed/27735789)
 Nachman KE, Love DC, Baron PA, **Nigra AE**, Murko M, Raber G, Francesconi KA, Navas-Acien A.
 Environ Health Perspect. 2017 Mar;125(3):363-369. doi: 10.1289/EHP225. Epub 2016 Oct 13.
-PMID: 27735789
+PMCID: PMC5332177
 
 [A survey of trace metal burdens in increment cores from eastern cottonwood (Populus deltoides) across a childhood cancer cluster, Sandusky County, OH, USA.](https://www.ncbi.nlm.nih.gov/pubmed/31425869)
 Garvin MC, Schijf J, Kaufman SR, Konow C, Liang D, **Nigra AE**, Stracker NH, Whelan RJ, Wiles GC. Chemosphere. 2020 Jan;238:124528.
+PMID: 31425869
 
 
 <br>
@@ -75,3 +78,7 @@ Garvin MC, Schijf J, Kaufman SR, Konow C, Liang D, **Nigra AE**, Stracker NH, Wh
 [Reuters](https://www.reuters.com/article/us-arsenic-water-regulations/u-s-drinking-water-regulations-tied-to-reduced-arsenic-exposure-idUSKBN1DO2KH)
 
 [Science Daily](https://www.sciencedaily.com/releases/2017/10/171023180516.htm)
+
+[NIEHS Environmental Factor](https://factor.niehs.nih.gov/2017/11/papers/arsenic/index.htm)
+
+[ASPHH](https://www.aspph.org/columbia-study-found-arsenic-exposure-in-u-s-public-drinking-water-declined-following-new-epa-regulations/)
