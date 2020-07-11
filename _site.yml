@@ -7,9 +7,9 @@ navbar:
       href: about.html
     - text: "Columbia Arsenic Map"
       href: ColumbiaArsenicMap.html
-    - text: "Publications, grant support"
+    - text: "Publications, Grant support"
       href: publications.html
-    - text: "Personal"
+    - text: "Principles, Personal"
       href: personal.html
     - icon: fa-envelope fa-lg
       href: mailto:<aen2136@cumc.columbia.edu>

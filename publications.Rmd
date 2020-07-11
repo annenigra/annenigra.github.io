@@ -9,10 +9,18 @@ Visit my [Google Scholar profile here](https://scholar.google.com/citations?user
 <br>
 
 ### Publications:
+[Environmental racism and the need for private well protections.](https://www.ncbi.nlm.nih.gov/pubmed/32641505)
+**Nigra AE**. Proceedings of the National Academy of Sciences of the USA. 2020 July;202011547.
+PMID: 32641505
+
 [Arsenic in US correctional facility drinking water, 2006-2011.](https://www.ncbi.nlm.nih.gov/pubmed/32585331)
 **Nigra AE**, Navas-Acien A. Environmental Research. 2020 June;188:109768. doi: 10.1016/j.envres.2020.109768.
 PMID: 32585331
 
+[Urinary metal levels after repeated edetate disodium infusions: Preliminary findings.](https://www.ncbi.nlm.nih.gov/pubmed/32610666)
+Alam ZH, Ujueta F, Arenas IA, **Nigra AE**, Navas-Acien A, Lamas GA.
+Int J Environ Res Public Health. June 2020;17(13):E4684. doi:10.3390/ijerph17134684
+PMID: 32610666
 
 [The effect of the Environmental Protection Agency maximum contaminant level on arsenic exposure in the USA from 2003 to 2014: an analysis of the National Health and Nutrition Examination Survey (NHANES).](https://www.ncbi.nlm.nih.gov/pubmed/29250608)
 **Nigra AE**, Sanchez TR, Nachman KE, Harvey D, Chillrud SN, Graziano JH, Navas-Acien A.
@@ -28,7 +36,7 @@ PMCID: PMC6748659
 Environ Res. 2018 Oct;166:444-451. doi: 10.1016/j.envres.2018.06.015. Epub 2018 Jun 22.
 PMCID: PMC6347476
 
-[Opportunities and Challenges for Dietary Arsenic Intervention.](https://www.ncbi.nlm.nih.gov/pubmed/30235424)
+[Opportunities and challenges for dietary arsenic intervention.](https://www.ncbi.nlm.nih.gov/pubmed/30235424)
 Nachman KE, Punshon T, Rardin L, Signes-Pastor AJ, Murray CJ, Jackson BP, Guerinot ML, Burke TA, Chen CY, Ahsan H, Argos M, Cottingham KL, Cubadda F, Ginsberg GL, Goodale BC, Kurzius-Spencer M, Meharg AA, Miller MD, **Nigra AE**, Pendergrast CB, Raab A, Reimer K, Scheckel KG, Schwerdtle T, Taylor VF, Tokar EJ, Warczak TM, Karagas MR.
 Environ Health Perspect. 2018 Aug;126(8):84503. doi: 10.1289/EHP3997.
 PMCID: PMC6375412
@@ -38,19 +46,19 @@ Nachman KE, Ginsberg GL, Miller MD, Murray CJ, **Nigra AE**, Pendergrast CB.
 Sci Total Environ. 2017 Mar 1;581-582:221-236. doi: 10.1016/j.scitotenv.2016.12.112. Epub 2017 Jan 5.
 PMCID: PMC5303536
 
-[Environmental Metals and Cardiovascular Disease in Adults: A Systematic Review Beyond Lead and Cadmium.](https://www.ncbi.nlm.nih.gov/pubmed/27783356)
+[Environmental metals and cardiovascular disease in adults: A systematic review beyond lead and cadmium.](https://www.ncbi.nlm.nih.gov/pubmed/27783356)
 **Nigra AE**, Ruiz-Hernandez A, Redon J, Navas-Acien A, Tellez-Plaza M.
-Curr Environ Health Rep. 2016 Dec;3(4):416-433. doi: 10.1007/s40572-016-0117-9. Review.
+Curr Environ Health Rep. 2016 Dec;3(4):416-433. doi: 10.1007/s40572-016-0117-9.
 PMCID: PMC5801549
 
-[Poultry Consumption and Arsenic Exposure in the U.S. Population.](https://www.ncbi.nlm.nih.gov/pubmed/27735790)
+[Poultry consumption and arsenic exposure in the U.S. population.](https://www.ncbi.nlm.nih.gov/pubmed/27735790)
 **Nigra AE**, Nachman KE, Love DC, Grau-Perez M, Navas-Acien A.
-Environ Health Perspect. 2017 Mar;125(3):370-377. doi: 10.1289/EHP351. Epub 2016 Oct 13.
+Environ Health Perspect. 2017 Mar;125(3):370-377. doi: 10.1289/EHP351.
 PMCID: PMC5332189
 
-[Nitarsone, Inorganic Arsenic, and Other Arsenic Species in Turkey Meat: Exposure and Risk Assessment Based on a 2014 U.S. Market Basket Sample.](https://www.ncbi.nlm.nih.gov/pubmed/27735789)
+[Nitarsone, inorganic arsenic, and other arsenic species in turkey meat: Exposure and risk assessment based on a 2014 U.S. market basket sample.](https://www.ncbi.nlm.nih.gov/pubmed/27735789)
 Nachman KE, Love DC, Baron PA, **Nigra AE**, Murko M, Raber G, Francesconi KA, Navas-Acien A.
-Environ Health Perspect. 2017 Mar;125(3):363-369. doi: 10.1289/EHP225. Epub 2016 Oct 13.
+Environ Health Perspect. 2017 Mar;125(3):363-369. doi: 10.1289/EHP225. 
 PMCID: PMC5332177
 
 [A survey of trace metal burdens in increment cores from eastern cottonwood (Populus deltoides) across a childhood cancer cluster, Sandusky County, OH, USA.](https://www.ncbi.nlm.nih.gov/pubmed/31425869)
@@ -82,3 +90,5 @@ PMID: 31425869
 [NIEHS Environmental Factor](https://factor.niehs.nih.gov/2017/11/papers/arsenic/index.htm)
 
 [ASPHH](https://www.aspph.org/columbia-study-found-arsenic-exposure-in-u-s-public-drinking-water-declined-following-new-epa-regulations/)
+
+[Water Quality Products](https://www.wqpmag.com/arsenic/study-investigates-arsenic-southwestern-correctional-facilities-drinking-water)
