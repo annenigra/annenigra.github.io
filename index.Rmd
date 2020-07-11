@@ -7,16 +7,14 @@ output:
 ---
 <img src="dolomitesgif.gif" style="width:30%; border:2px solid #525252" ALIGN = "right" HSPACE="10" VSPACE="10"/>
 <br>
-I'm an environmental health scientist and environmental epidemiologist. My work focuses on understanding the relationship between metal exposures (arsenic, mercury, tungsten, etc.) and related chronic disease, and on assessing population-level metal exposures using both biological and environmental monitoring.
+I'm an environmental health scientist and environmental epidemiologist. My work focuses on understanding the relationship between metal exposures (arsenic, mercury, tungsten, etc.) and related chronic disease, and on assessing population-level metal exposures using both biological and environmental monitoring. 
 <br>
 <br>
 I am most invested in and motivated by projects that:
 <ul><li>Inform and evaluate federal regulations intended to reduce exposures and related adverse health outcomes,</li>
 <li>Are community- owned/directed/managed, or</li>
-<li>Assess environmental injustices and approaches to mitigate health disparities.</li></ul>
+<li>Assess environmental injustices and aim to <u>eliminate health disparities.</u></li></ul>
 <br>
-I'm currently postdoc-ing at Columbia University's [Mailman School of Public Health](https://www.mailman.columbia.edu/) in the [Department of Environmental Health Sciences](https://www.mailman.columbia.edu/academics/departments/environmental-health-sciences-ehs) and at the [Columbia University Superfund Research Program](https://www.mailman.columbia.edu/research/columbia-superfund-research-program). I hold a Ph.D in Environmental Health Sciences from Columbia University's [Mailman School of Public Health](https://www.mailman.columbia.edu/) (2020), a Sc.M. in Environmental Epidemiology from [Johns Hopkins Bloomberg School of Public Health](https://www.jhsph.edu/) (2016) and a B.A. in Biology from [Oberlin College](https://www.oberlin.edu/) (2014), where I also studied Gender, Sexuality, and Feminist Studies.   
+I'm currently Postdoc-ing at Columbia University's [Mailman School of Public Health](https://www.mailman.columbia.edu/) in the [Department of Environmental Health Sciences](https://www.mailman.columbia.edu/academics/departments/environmental-health-sciences-ehs) and at the [Columbia University Superfund Research Program](https://www.mailman.columbia.edu/research/columbia-superfund-research-program). I hold a Ph.D in Environmental Health Sciences from Columbia University's [Mailman School of Public Health](https://www.mailman.columbia.edu/) (2020), a Sc.M. in Environmental Epidemiology from [Johns Hopkins Bloomberg School of Public Health](https://www.jhsph.edu/) (2016) and a B.A. in Biology from [Oberlin College](https://www.oberlin.edu/) (2014), where I also studied Gender, Sexuality, and Feminist Studies.   
 <br>
-
-
 
