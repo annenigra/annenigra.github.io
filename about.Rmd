@@ -3,7 +3,7 @@ title: "Current Projects"
 output:
   html_document:
     includes:
-      after_body: footerb.Rhtml
+      after_body: footerc.Rhtml
 ---
 
 <br>
