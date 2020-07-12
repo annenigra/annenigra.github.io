@@ -3,7 +3,7 @@ title: "Publications, grant support"
 output:
   html_document:
     includes:
-      after_body: footerb.Rhtml
+      after_body: footerc.Rhtml
 ---
 Visit my [Google Scholar profile here](https://scholar.google.com/citations?user=7h7BTIXehlsC&hl=en&oi=ao)
 <br>

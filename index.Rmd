@@ -3,7 +3,7 @@ title: "Hi, I'm Annie"
 output:
   html_document:
     includes:
-      after_body: footerb.Rhtml
+      after_body: footerc.Rhtml
 ---
 <img src="dolomitesgif.gif" style="width:30%; border:2px solid #525252" ALIGN = "right" HSPACE="10" VSPACE="10"/>
 <br>
