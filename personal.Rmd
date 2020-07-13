@@ -1,23 +1,10 @@
 ---
-title: "Principles, Personal"
+title: "Personal"
 output:
   html_document:
     includes:
       after_body: footerc.Rhtml
 ---
-### Principles
-The following principles guide my work:
-<ul><li><b> ["Health is a human right. The public health community exists to safeguard that right."](https://www.publichealth.columbia.edu/about/mission-history/public-health-oath#:~:text=I%20will%20hold%20myself%20to,communities%20with%20whom%20I%20work.) Public health research must aim to create a more just and equitable world. </b> </li>
-<li> Sharing reproduction achives and statistical code and producing publicly available datasets (when appropriate) to create a more rigorous and inclusive scientific environment. </li>
-
-<li> Supporting and advocating for [data soverignty](https://www.ncbi.nlm.nih.gov/pubmed/32251390) for Indigenous communities and nations.</li>
-
-<li> Supporting and mentoring the next generation of scientists and public health professionals, from high school through graduate school, to create a more just, equitable, and inclusive scientific environment.</li>
-
-<li> [Naming and describing](https://www.healthaffairs.org/do/10.1377/hblog20200630.939347/full/) how institutional, structural, and interpersonal racism, classism, misogyny, xenophobia, and transphobia operate and intersect to impact health and cause disease.</li></ul>
-
-
-
 
 ### Personal
 I'm originally from Natrona Heights, PA and currently live in New York City with my dog Roo. I enjoy hiking, urban and gravel cycling, the New York City public park system, and trail running (here's my [favorite hometown trail system](https://rachelcarsontrails.org/)). 
