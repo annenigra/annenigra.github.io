@@ -6,7 +6,6 @@ output:
     includes:
       after_body: footerc.Rhtml
 ---
-
 ### <font size="+3"><b>Personal </b></font>
 <br>
 
