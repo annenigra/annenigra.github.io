@@ -7,6 +7,9 @@ output:
       after_body: footerc.Rhtml
 ---
 
+### <font size="+3"><b>Personal </b></font>
+<br>
+
 I'm originally from Natrona Heights, PA and currently live in New York City with my partner and my dog Roo. I enjoy hiking, urban and gravel cycling, the New York City public park system, and trail running (here's my [favorite hometown trail system](https://rachelcarsontrails.org/)). 
 <br>
 
