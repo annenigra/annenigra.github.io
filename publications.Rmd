@@ -6,6 +6,10 @@ output:
     includes:
       after_body: footerc.Rhtml
 ---
+
+### <font size="+3"><b>Publications, grant support </b></font>
+<br>
+
 Visit my [Google Scholar profile here](https://scholar.google.com/citations?user=7h7BTIXehlsC&hl=en&oi=ao)
 <br>
 

@@ -7,6 +7,9 @@ output:
       after_body: footerc.Rhtml
 ---
 
+### <font size="+3"><b>Current Projects </b></font>
+<br>
+
 ### Environmental justice and inequalities in public drinking water contaminant exposures
 
 <p style="text-align:right;"><img src="SocioCCMap.png" style="width:40%; border:0px solid #525252" ALIGN = "right" HSPACE="10" VSPACE="10"/></p>
