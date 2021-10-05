@@ -3,7 +3,7 @@ title: "County-level, weighted average arsenic concentrations (µg/L) in communi
 output:
   html_document:
     includes:
-      after_body: footerb.Rhtml
+      after_body: footerc.Rhtml
 ---
 
 ```{r setup, include=FALSE}
