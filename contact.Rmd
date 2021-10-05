@@ -1,7 +1,0 @@
----
-title: "Contact"
----
-
-```r
-icon::fa("rocket")
-```
