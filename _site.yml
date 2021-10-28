@@ -7,6 +7,8 @@ navbar:
       href: about.html
     - text: "Columbia Drinking Water Dashboard"
       href: https://msph.shinyapps.io/drinking-water-dashboard/
+    - text: "Columbia Arsenic Map"
+      href: ColumbiaArsenicMap.html
     - text: "Publications, Grant support"
       href: publications.html
     - text: "Personal"
