@@ -1,111 +1,68 @@
 ---
-title: "Publications, grant support"
-description: "Publications, grant support"
+title: ""
+description: ""
 output:
   html_document:
     includes:
-      after_body: footerc.Rhtml
+      after_body: footerc_edit.Rhtml
 ---
-### <font size="+3"><b>Publications, grant support </b></font>
+<p style="text-align:center;">
+<img src="logo2.png" style="width:70%; border:0px solid #525252" ALIGN = "center"/>
+</p>
+<br>
+<br>
+<p style="color:black;font-family: Century;font-size:300%"><b>Selected publications</b></p>
+
+Visit Annie's [Google Scholar profile here](https://scholar.google.com/citations?user=7h7BTIXehlsC&hl=en&oi=ao).
+<br>
 <br>
 
-Visit my [Google Scholar profile here](https://scholar.google.com/citations?user=7h7BTIXehlsC&hl=en&oi=ao)
-<br>
+[Geospatial assessment of racial/ethnic composition, social vulnerability, and lead service lines in New York City.](https://pubmed.ncbi.nlm.nih.gov/37646509/) Nigra, AE, Lieberman-Cribbin W, Bostick BC, Chillrud SN, Carrion D. <i>Environmental Health Perspectives.</i> 2023 August. doi: 10.1289/EHP12276.
 
-### Publications:
+[Contribution of arsenic and uranium in private wells and community water systems to urinary biomarkers in US adults: The Strong Heart Study and the Multi-Ethnic Study of Atherosclerosis.](https://pubmed.ncbi.nlm.nih.gov/37558699/) Spaur M, Glabonjat RA, Schilling K, Lombard MA, Galvez-Fernandez M, Lieberman-Cribbin W, Hayek C, Ilievski V, Balac O, Izuchukwu C, Patterson K, Basu A, Bostick BC, Chen Q, Sanchez T, Navas-Acien A, Nigra AE. <i>Journal of Exposure Sciences and Environmental Epidemiology.</i> 2023 August. doi: 10.1038/s41370-023-00586-2
 
-[Racial Inequalities in Drinking Water Lead Exposure: A Wake-Up Call to Protect Patients with End Stage Kidney Disease.](https://www.ncbi.nlm.nih.gov/pubmed/34544822)
-**Nigra, AE**, Navas-Acien A. Journal of the American Society of Nephrology. 2021 October. doi: 10.1681/ASN.2021060793
+[Regional and racial/ethnic inequalities in public drinking water fluoride concentrations across the US.](https://pubmed.ncbi.nlm.nih.gov/37391608/) Hefferon R, Goin DE, Sarnat JA, Nigra AE. <i>Journal of Exposure Sciences and Environmental Epidemiology.</i> 2023 June. doi: 10.1038/s41370-023-00570-w.
+
+[Nationwide geospatial analysis of county racial and ethnic composition and public drinking water arsenic and uranium.](https://pubmed.ncbi.nlm.nih.gov/36460659/) Martinez-Morata I, Bostick BC, Conroy-Ben O, Duncan DT, Jones MR, Spaur M, Patterson KP, Prins SJ, Navas-Acien A, Nigra AE.<i> Nature Communications.</i> 2022 December. doi: 10.1038/s41467-022-35185-6. 
+
+[Sociodemographic inequalities in uranium and other metals in community water systems across the USA, 2006-11: a cross-sectional study.](https://pubmed.ncbi.nlm.nih.gov/35397220/) Ravalli F, Yu Y, Bostick BC, Chillrud SN, Schilling K, Basu A, Navas-Acien A, Nigra AE. <i>Lancet Planetary Health.</i> 2022 April. doi: 10.1016/S2542-5196(22)00043-2.
+
+[Racial Inequalities in Drinking Water Lead Exposure: A Wake-Up Call to Protect Patients with End Stage Kidney Disease.](https://www.ncbi.nlm.nih.gov/pubmed/34544822) Nigra, AE, Navas-Acien A. <i>Journal of the American Society of Nephrology.</i> 2021 October; doi: 10.1681/ASN.2021060793
 PMID: 34544822
 
-[Urinary arsenic and heart disease mortality in NHANES 2003-2014.](https://www.ncbi.nlm.nih.gov/pubmed/34090890)
-**Nigra, AE**, Moon KA, Jones MR, Sanchez TR, Navas-Acien A. Environmental Research. 2021 September. doi: 10.1016/j.envres.2021.111387.
-PMCID: PMC8403626
-
-[Associations between private well water and community water supply arsenic concentrations in the conterminous United States.](https://www.ncbi.nlm.nih.gov/pubmed/33991916)
-Spaur M, Lombard MA, Ayotte JD, Harvey DE, Bostick BC, Chillrud SN, Navas-Acien A, **Nigra, AE**. Science of the Total Environment. 2021 September; doi: 10.1016/j.scitotenv.2021.147555.
+[Associations between private well water and community water supply arsenic concentrations in the conterminous United States.](https://www.ncbi.nlm.nih.gov/pubmed/33991916) Spaur M, Lombard MA, Ayotte JD, Harvey DE, Bostick BC, Chillrud SN, Navas-Acien A, Nigra, AE.<i> Science of the Total Environment. </i>2021 September; doi: 10.1016/j.scitotenv.2021.147555.
 PMCID: PMC8192485
 
-[Inequalities in Public Water Arsenic Concentrations in Counties and Community Water Systems across the United States, 2006–2011.](https://ehp.niehs.nih.gov/doi/full/10.1289/EHP7313)
-**Nigra, AE**, Chen C, Chillrud SN, Wang L, Harvey D, Mailloux B, Factor-Litvak P, Navas-Acien A. Environmental Health Perspectives. 2020 December; doi: https://doi.org/10.1289/EHP7313
+[Inequalities in Public Water Arsenic Concentrations in Counties and Community Water Systems across the United States, 2006–2011.](https://ehp.niehs.nih.gov/doi/full/10.1289/EHP7313) Nigra, AE, Chen C, Chillrud SN, Wang L, Harvey D, Mailloux B, Factor-Litvak P, Navas-Acien A. <i>Environmental Health Perspectives.</i> 2020 December; doi: https://doi.org/10.1289/EHP7313
 PMCID: PMC7724967
 
-[Environmental racism and the need for private well protections.](https://www.ncbi.nlm.nih.gov/pubmed/32641505)
-**Nigra, AE**. Proceedings of the National Academy of Sciences of the USA. 2020 July;202011547.
+[Environmental racism and the need for private well protections.](https://www.ncbi.nlm.nih.gov/pubmed/32641505) Nigra, AE. <i>Proceedings of the National Academy of Sciences of the USA.</i> 2020 July;202011547.
 PMID: 32641505
 
-[Arsenic in US correctional facility drinking water, 2006-2011.](https://www.ncbi.nlm.nih.gov/pubmed/32585331)
-**Nigra, AE**, Navas-Acien A. Environmental Research. 2020 June;188:109768. doi: 10.1016/j.envres.2020.109768.
+[Arsenic in US correctional facility drinking water, 2006-2011.](https://www.ncbi.nlm.nih.gov/pubmed/32585331) Nigra, AE, Navas-Acien A. <i>Environmental Research. </i>2020 June;188:109768. doi: 10.1016/j.envres.2020.109768.
 PMID: 32585331
 
-[Urinary metal levels after repeated edetate disodium infusions: Preliminary findings.](https://www.ncbi.nlm.nih.gov/pubmed/32610666)
-Alam ZH, Ujueta F, Arenas IA, **Nigra, AE**, Navas-Acien A, Lamas GA.
-Int J Environ Res Public Health. June 2020;17(13):E4684. doi:10.3390/ijerph17134684
+[Urinary metal levels after repeated edetate disodium infusions: Preliminary findings.](https://www.ncbi.nlm.nih.gov/pubmed/32610666) Alam ZH, Ujueta F, Arenas IA, Nigra, AE, Navas-Acien A, Lamas GA. <i> International Journal of Environmental Research and Public Health.</i> June 2020;17(13):E4684. doi:10.3390/ijerph17134684
 PMID: 32610666
 
-[The effect of the Environmental Protection Agency maximum contaminant level on arsenic exposure in the USA from 2003 to 2014: an analysis of the National Health and Nutrition Examination Survey (NHANES).](https://www.ncbi.nlm.nih.gov/pubmed/29250608)
-**Nigra, AE**, Sanchez TR, Nachman KE, Harvey D, Chillrud SN, Graziano JH, Navas-Acien A.
-Lancet Public Health. 2017 Nov;2(11):e513-e521. doi: 10.1016/S2468-2667(17)30195-0.
+[The effect of the Environmental Protection Agency maximum contaminant level on arsenic exposure in the USA from 2003 to 2014: an analysis of the National Health and Nutrition Examination Survey (NHANES).](https://www.ncbi.nlm.nih.gov/pubmed/29250608) Nigra, AE, Sanchez TR, Nachman KE, Harvey D, Chillrud SN, Graziano JH, Navas-Acien A. <i>Lancet Public Health.</i> 2017 Nov;2(11):e513-e521. doi: 10.1016/S2468-2667(17)30195-0.
 PMCID: PMC5729579
 
-[Dietary determinants of inorganic arsenic exposure in the Strong Heart Family Study.](https://www.ncbi.nlm.nih.gov/pubmed/31442790)
-**Nigra, AE**, Olmedo P, Grau-Perez M, O'Leary R, O'Leary M., Fretts AM, Umans JG, Best LG, Francesconi KA, Goessler W, Cole SA, Navas-Acien A. Environ Res. 2019 Oct;177:108616.
-PMCID: PMC6748659
-
-[Urinary tungsten and incident cardiovascular disease in the Strong Heart Study: An interaction with urinary molybdenum.](https://www.ncbi.nlm.nih.gov/pubmed/29940477)
-**Nigra, AE**, Howard BV, Umans JG, Best L, Francesconi KA, Goessler W, Devereux R, Navas-Acien A.
-Environ Res. 2018 Oct;166:444-451. doi: 10.1016/j.envres.2018.06.015. Epub 2018 Jun 22.
+[Urinary tungsten and incident cardiovascular disease in the Strong Heart Study: An interaction with urinary molybdenum.](https://www.ncbi.nlm.nih.gov/pubmed/29940477) Nigra, AE, Howard BV, Umans JG, Best L, Francesconi KA, Goessler W, Devereux R, Navas-Acien A. <i>Environmental Research.</i> 2018 Oct;166:444-451. doi: 10.1016/j.envres.2018.06.015. Epub 2018 Jun 22.
 PMCID: PMC6347476
 
-[Opportunities and challenges for dietary arsenic intervention.](https://www.ncbi.nlm.nih.gov/pubmed/30235424)
-Nachman KE, Punshon T, Rardin L, Signes-Pastor AJ, Murray CJ, Jackson BP, Guerinot ML, Burke TA, Chen CY, Ahsan H, Argos M, Cottingham KL, Cubadda F, Ginsberg GL, Goodale BC, Kurzius-Spencer M, Meharg AA, Miller MD, **Nigra, AE**, Pendergrast CB, Raab A, Reimer K, Scheckel KG, Schwerdtle T, Taylor VF, Tokar EJ, Warczak TM, Karagas MR.
-Environ Health Perspect. 2018 Aug;126(8):84503. doi: 10.1289/EHP3997.
-PMCID: PMC6375412
-
-[Mitigating dietary arsenic exposure: Current status in the United States and recommendations for an improved path forward.](https://www.ncbi.nlm.nih.gov/pubmed/28065543)
-Nachman KE, Ginsberg GL, Miller MD, Murray CJ, **Nigra, AE**, Pendergrast CB.
-Sci Total Environ. 2017 Mar 1;581-582:221-236. doi: 10.1016/j.scitotenv.2016.12.112. Epub 2017 Jan 5.
-PMCID: PMC5303536
-
-[Environmental metals and cardiovascular disease in adults: A systematic review beyond lead and cadmium.](https://www.ncbi.nlm.nih.gov/pubmed/27783356)
-**Nigra, AE**, Ruiz-Hernandez A, Redon J, Navas-Acien A, Tellez-Plaza M.
-Curr Environ Health Rep. 2016 Dec;3(4):416-433. doi: 10.1007/s40572-016-0117-9.
-PMCID: PMC5801549
-
-[Poultry consumption and arsenic exposure in the U.S. population.](https://www.ncbi.nlm.nih.gov/pubmed/27735790)
-**Nigra, AE**, Nachman KE, Love DC, Grau-Perez M, Navas-Acien A.
-Environ Health Perspect. 2017 Mar;125(3):370-377. doi: 10.1289/EHP351.
-PMCID: PMC5332189
-
-[Nitarsone, inorganic arsenic, and other arsenic species in turkey meat: Exposure and risk assessment based on a 2014 U.S. market basket sample.](https://www.ncbi.nlm.nih.gov/pubmed/27735789)
-Nachman KE, Love DC, Baron PA, **Nigra, AE**, Murko M, Raber G, Francesconi KA, Navas-Acien A.
-Environ Health Perspect. 2017 Mar;125(3):363-369. doi: 10.1289/EHP225. 
-PMCID: PMC5332177
-
-[A survey of trace metal burdens in increment cores from eastern cottonwood (Populus deltoides) across a childhood cancer cluster, Sandusky County, OH, USA.](https://www.ncbi.nlm.nih.gov/pubmed/31425869)
-Garvin MC, Schijf J, Kaufman SR, Konow C, Liang D, **Nigra, AE**, Stracker NH, Whelan RJ, Wiles GC. Chemosphere. 2020 Jan;238:124528.
-PMID: 31425869
-
 
 <br>
-
-### Grants and research support:
-**DP5 OD031849. NIH Office of The Director. Early Independence Award.** "Public Drinking Water Contaminants and Infant Health: Advancing Environmental Justice." Award period 2021 - 2025.
-*The objective of this project is to evaluate the contribution of racial/ethnic and socioeconomic inequalities in public drinking water contaminant exposures to in utero water contaminant exposures and subsequent adverse birth outcomes across the United States. Potential disparities in public drinking water contaminant exposures have not been comprehensively characterized across the US. Such disparities in public drinking water contaminant exposures may directly contribute to inequalities in in utero exposures and inequalities in adverse birth outcomes. Findings may have major implications for public drinking water regulatory policy in the US.*
-
-**F31 ES029799. Ruth L. Kirschstein National Research Service Award (NRSA) Individual Predoctoral Fellowship.** "Arsenic Exposure in US Drinking Water: Spatial Patterns, Temporal Trends, and Related Mortalities." Award period 2018 - 2021.
-*The proposed study will use several nationally representative databases to explore temporal trends and spatial patterns in drinking water arsenic exposure in the US population and the association between arsenic exposure and related disease at the county-level. There is a critical need to identify susceptible subgroups whose water arsenic remains high, by geography, race/ethnicity, or socioeconomic status, to inform further exposure-reduction interventions. Our study will evaluate the potential impact of federal drinking water regulations on drinking water arsenic exposure and the cardiovascular disease epidemic, determining whether reductions in water arsenic exposure are associated with a reduction in total and cardiovascular mortality.*
-
-**K.C. Donnelly Externship Supplement, Superfund Research Program.** "Mercury exposure assessment in Greater Plains tribal communities." Awarded 2018.
-*The proposed study will 1) Characterize ambient air and soil mercury concentrations, (2) Determine the association between meteorological conditions and measured ambient air mercury levels, and (3) Engage community members by providing student research opportunities in environmental monitoring research and data dissemination.*
-
-**Columbia University Center for Environmental Health in Northern Manhattan (CEHNM) pilot grant.** "Assessment of mercury and other metals in biospecimens from the Strong Heart Family Study." Awarded 2018.
-*The proposed study will 1) Characterize variability in metal biomarker concentrations over time and across study centers, and 2) Determine sex-specific differences in metal biomarker levels.* 
-
 <br>
 
-### Selected media coverage:
+<p style="color:black;font-family: Century;font-size:200%"><b>Selected media coverage</b></p>
 [New York Times](https://www.nytimes.com/2017/10/24/well/live/arsenic-reductions-in-drinking-water-tied-to-fewer-cancer-deaths.html)
+
+[Gothamist](https://gothamist.com/news/lead-pipes-more-common-in-nyc-latino-neighborhoods-study-says)
+
+[ABC News](https://www.youtube.com/watch?v=ftvJr-BycJY)
+
+[Scripps News](https://www.haystack.tv/v/uranium-found-half-america-public-water-systems-study-finds)
 
 [Environmental Health News](https://www.ehn.org/arsenic-water-southwest--2649419084.html)
 
