@@ -10,6 +10,12 @@
   font-weight: 500;
   src: url(fonts/RobotoMedium.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Century';
+  font-style: normal;
+  font-weight: 500;
+  src: url(fonts/Century.ttf) format('truetype');
+}
 
 /*!
  * bootswatch v3.3.6
