@@ -6,6 +6,11 @@ output:
     includes:
       after_body: footerc_edit.Rhtml
 ---
+<br>
+<br>
+<br>
+<br>
+<br>
 <p style="text-align:center;">
 <img src="logo2.png" style="width:70%; border:0px solid #525252" ALIGN = "center"/>
 </p>
