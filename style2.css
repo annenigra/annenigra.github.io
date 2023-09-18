@@ -10,7 +10,21 @@
   font-weight: 500;
   src: url(fonts/RobotoMedium.ttf) format('truetype');
 }
-
+@font-face {
+  font-family: 'Century';
+  font-style: normal;
+  font-weight: 500;
+  src: url(fonts/Century.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Century';
+  src: url('century.eot'); /* IE9 Compat Modes */
+  src: url('century.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('century.woff2') format('woff2'), /* Super Modern Browsers */
+       url('century.woff') format('woff'), /* Pretty Modern Browsers */
+       url('century.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('century.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
 /*!
  * bootswatch v3.3.6
  * Homepage: http://bootswatch.com

@@ -21,7 +21,7 @@ output:
 </p>
 <br>
 <br>
-<p style="color:black;font-family: Century;font-size:300%"><b>Welcome!</b></p>
+<p style="color:black;font-size:300%"><b>Welcome!</b></p>
 
 Our Lab is based in the [Department of Environmental Health Sciences](https://www.mailman.columbia.edu/academics/departments/environmental-health-sciences-ehs) at the Columbia University [Mailman School of Public Health](https://www.mailman.columbia.edu/). Our team conducts justice-oriented research on US drinking water epidemiology and exposure assessment, metal exposures, chronic disease, and maternal and infant health, leveraging collaborations with several large NIH-funded cohorts. Recent work by our group includes epidemiologic analyses of public water contaminants and infant, maternal, and chronic adverse outcomes; methodological advances for public water exposure assessment; evaluations of federal drinking water policies and regulatory changes; and analyses of injustices in public drinking water contaminants.
 
