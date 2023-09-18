@@ -16,7 +16,7 @@ output:
 </p>
 <br>
 <br>
-<p style="color:black;font-family: Century;font-size:300%"><b>Selected publications</b></p>
+<p style="color:black;font-size:300%"><b>Selected publications</b></p>
 
 Visit Annie's [Google Scholar profile here](https://scholar.google.com/citations?user=7h7BTIXehlsC&hl=en&oi=ao).
 <br>
@@ -60,7 +60,7 @@ PMCID: PMC6347476
 <br>
 <br>
 
-<p style="color:black;font-family: Century;font-size:200%"><b>Selected media coverage</b></p>
+<p style="color:black;font-size:200%"><b>Selected media coverage</b></p>
 [New York Times](https://www.nytimes.com/2017/10/24/well/live/arsenic-reductions-in-drinking-water-tied-to-fewer-cancer-deaths.html)
 
 [Gothamist](https://gothamist.com/news/lead-pipes-more-common-in-nyc-latino-neighborhoods-study-says)

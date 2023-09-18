@@ -16,7 +16,7 @@ output:
 </p>
 <br>
 <br>
-<p style="color:black;font-family: Century;font-size:300%"><b>Team</b></p>
+<p style="color:black;font-size:300%"><b>Team</b></p>
 <br>
 <img src="ANigra_cropped_headshot.jpg" style="float: left; margin-right: 15px; width:180px; border:2px solid #525252" ALIGN = "left" HSPACE="10" VSPACE="10"/>
 <br>
@@ -85,7 +85,7 @@ Rae (she/her) is a second year EHS doctoral student from San Diego, CA. She has 
 <br>
 <br>
 <br>
-<p style="color:black;font-family: Century;font-size:150%"><b>Prior team members</b></p>
+<p style="color:black;font-size:150%"><b>Prior team members</b></p>
 <b>Maya Spaur, ScM, PhD,</b> now a Postdoc at NCI<br>
 <b>Filippo Ravalli, MPH,</b> now a MD student at Columbia University<br>
 <b>Ellen Bannon, MPH</b>
