@@ -3,16 +3,16 @@ output_dir: "."
 navbar:
   title: "Home"
   left:
+    - text: "Team"
+      href: team.html
     - text: "Current Projects"
       href: about.html
+    - text: "Publications"
+      href: publications.html
     - text: "Columbia Drinking Water Dashboard"
       href: https://msph.shinyapps.io/drinking-water-dashboard/
     - text: "Columbia Arsenic Map"
       href: ColumbiaArsenicMap.html
-    - text: "Publications, Grant support"
-      href: publications.html
-    - text: "Personal"
-      href: personal.html
     - icon: fa-envelope fa-lg
       href: mailto:<aen2136@cumc.columbia.edu>
     - icon: fa-github fa-lg
