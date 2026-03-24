@@ -1,0 +1,37 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Century&display=swap');
+</style>
+
+&nbsp;
+<hr />
+<p style="text-align:center;">
+<img src="logo2.png" style="width:40%; border:0px solid #525252" ALIGN = "center"/>
+</p>
+<br>
+<p style="text-align: center;font-family: Avenir;font-size:100%"><b>Contact:</b></a></p>
+<p style="text-align: center;"><span style="color: #808080;">Annie Nigra, ScM, PhD<br>
+Assistant Professor of Environmental Health Sciences<br>
+Columbia University Mailman School of Public Health<br>
+722 West 168th St, Rm 1107A, New York, NY 10032<br>
+Pronouns: she/her/hers<br>
+724-759-0109<br>
+aen2136@cumc.columbia.edu<br>
+Send us an email re: potential collaborations.</span></p>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<p style="text-align: center;">
+    <a href="mailto:<aen2136@cumc.columbia.edu>" class="fa fa-envelope" style="font-size: 200%"></a>
+    <a href="https://www.linkedin.com/in/anne-nigra-73576413a/" class="fa fa-linkedin" style="font-size: 200%"></a>
+    <a href="https://www.instagram.com/annienigra/" class="fa fa-instagram" style="font-size: 200%"></a>
+    <a href="https://twitter.com/annie_nigra" class="fa fa-twitter" style="font-size: 200%"></a>
+    <a href="https://github.com/annenigra" class="fa fa-github" style="font-size: 200%"></a>
+
+</p>
+
+&nbsp;
