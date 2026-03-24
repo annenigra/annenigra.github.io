@@ -11,12 +11,12 @@
 
 
 
-<title>index.knit</title>
+<title>WATER EPI Lab</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -32,8 +32,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -59,7 +57,8 @@ if (window.hljs) {
 
 
 
-<link rel="stylesheet" href="style2.css" type="text/css" />
+
+<link rel="stylesheet" href="style2_8.css" type="text/css" />
 
 
 
@@ -83,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -140,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -173,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -182,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -235,20 +234,17 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Home</a>
+      <a class="navbar-brand" href="index.html">WATER EPI Lab</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="team.html">Team</a>
-</li>
-<li>
-  <a href="about.html">Current Projects</a>
+  <a href="about.html">Research</a>
 </li>
 <li>
   <a href="publications.html">Publications</a>
@@ -257,19 +253,10 @@ $(document).ready(function () {
   <a href="https://msph.shinyapps.io/drinking-water-dashboard/">Columbia Drinking Water Dashboard</a>
 </li>
 <li>
-  <a href="ColumbiaArsenicMap.html">Columbia Arsenic Map</a>
+  <a href="team.html">Team</a>
 </li>
 <li>
-  <a href="mailto:&lt;aen2136@cumc.columbia.edu&gt;">
-    <span class="fa fa-envelope fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://github.com/annenigra">
-    <span class="fa fa-github fa-lg"></span>
-     
-  </a>
+  <a href="contact.html">Contact</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -283,13 +270,14 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">WATER EPI Lab</h1>
 
 </div>
 
 
 <br> <br> <br> <br> <br>
 <p style="text-align:center;">
-<img src="logo2.png" style="width:70%; border:0px solid #525252" ALIGN = "center"/>
+<img src="logo_transparent_v2.png" style="width:70%; border:0px solid #525252" ALIGN = "center"/>
 </p>
 <br> <br>
 <p style="text-align:center;">
@@ -299,30 +287,31 @@ $(document).ready(function () {
 <p style="color:black;font-size:300%">
 <b>Welcome!</b>
 </p>
-<p>Our Lab is based in the <a
+<p>Our lab is based in the <a
 href="https://www.mailman.columbia.edu/academics/departments/environmental-health-sciences-ehs">Department
 of Environmental Health Sciences</a> at the Columbia University <a
 href="https://www.mailman.columbia.edu/">Mailman School of Public
 Health</a>. Our team conducts justice-oriented research on US drinking
 water epidemiology and exposure assessment, metal exposures, chronic
 disease, and maternal and infant health, leveraging collaborations with
-several large NIH-funded cohorts. Recent work by our group includes
-epidemiologic analyses of public water contaminants and infant,
-maternal, and chronic adverse outcomes; methodological advances for
-public water exposure assessment; evaluations of federal drinking water
-policies and regulatory changes; and analyses of injustices in public
-drinking water contaminants.</p>
-<p>Our long term scientific goal is to reduce racial, ethnic, and
-socioeconomic inequities in environmental exposures and adverse health
-outcomes, and improve health for all (yes, that’s ambitious). By
-advancing public water exposure assessment and epidemiology across the
-US, we aim to advance environmental justice, improve health equity, and
-directly inform regulations and other exposure reduction
-interventions.</p>
+several large NIH-funded cohorts.</p>
+<p>Recent work by our group includes epidemiologic analyses of public
+water contaminants and infant, maternal, and chronic adverse outcomes;
+methodological advances for public water exposure assessment;
+evaluations of federal drinking water policies and regulatory changes;
+and analyses of injustices in public drinking water contaminants.</p>
+<p>Our long-term scientific goal is to reduce disparities in
+environmental exposures and adverse health outcomes, and improve health
+for all. By advancing public water exposure assessment, epidemiology,
+and policy/intervention work across the US, we aim to advance
+environmental justice, improve health equity, and directly inform
+regulations and other exposure-reduction interventions.</p>
+<p><br></p>
 <p><b><a
 href="https://www.publichealth.columbia.edu/about/mission-history/public-health-oath#:~:text=Health%20is%20a%20human%20right.">“Health
 is a human right. The public health community exists to safeguard that
-right.”</a></b> <br></p>
+right.”</a></b></p>
+<p><br></p>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
@@ -334,10 +323,10 @@ right.”</a></b> <br></p>
 &nbsp;
 <hr />
 <p style="text-align:center;">
-<img src="logo2.png" style="width:40%; border:0px solid #525252" ALIGN = "center"/>
+<img src="logo_transparent_v2.png" style="width:40%; border:0px solid #525252" ALIGN = "center"/>
 </p>
 <br>
-<p style="text-align: center;font-family: Avenir;font-size:100%"><b>Contact:</b></a></p>
+<p style="text-align: center;font-family: Century;font-size:100%"><b>Contact:</b></a></p>
 <p style="text-align: center;"><span style="color: #808080;">Annie Nigra, ScM, PhD<br>
 Assistant Professor of Environmental Health Sciences<br>
 Columbia University Mailman School of Public Health<br>
