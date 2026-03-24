@@ -1,24 +1,22 @@
-name: "annies-website"
+name: "WATER EPI Lab"
+title: "WATER EPI Lab"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "WATER EPI Lab"
   left:
-    - text: "Team"
-      href: team.html
-    - text: "Current Projects"
+    - text: "Research"
       href: about.html
     - text: "Publications"
       href: publications.html
     - text: "Columbia Drinking Water Dashboard"
       href: https://msph.shinyapps.io/drinking-water-dashboard/
-    - text: "Columbia Arsenic Map"
-      href: ColumbiaArsenicMap.html
-    - icon: fa-envelope fa-lg
-      href: mailto:<aen2136@cumc.columbia.edu>
-    - icon: fa-github fa-lg
-      href: https://github.com/annenigra
-
+    - text: "Team"
+      href: team.html
+    - text: "Contact"
+      href: contact.html
 output:
   html_document:
-    theme: sandstone
-    css: style2.css
+    theme: flatly
+    css: style2_8.css
+    includes:
+      after_body: footerc_edit.Rhtml
