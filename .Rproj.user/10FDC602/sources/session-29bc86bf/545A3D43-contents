@@ -1,7 +1,39 @@
 ---
 title: "Contact"
+description: "Contact the WATER EPI Lab at Columbia University"
+output:
+  html_document:
+    includes:
+      after_body: footerc_edit.Rhtml
 ---
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="text-align:center;">
+<img src="logo_transparent_v2.png" style="width:70%; border:0px solid #525252" ALIGN = "center"/>
+</p>
+<br>
+<br>
 
-```r
-icon::fa("rocket")
-```
+<p style="color:black;font-size:150%"><b>Annie Nigra, ScM, PhD</b></p>
+
+Assistant Professor
+<br>
+Department of Environmental Health Sciences
+<br>
+Columbia University Mailman School of Public Health
+<br>
+722 West 168th Street, New York, NY 10032
+<br>
+&#x2709;&nbsp; <a href="mailto:aen2136@cumc.columbia.edu">aen2136@cumc.columbia.edu</a>
+
+<br>
+<br>
+<br>
+<br>
+
+<b>Media inquiries:</b> Please reach out via email. We are happy to discuss our research with journalists and science communicators.
+
+<br>

@@ -11,12 +11,12 @@
 
 
 
-<title>team.knit</title>
+<title>Team</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -32,8 +32,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -59,7 +57,8 @@ if (window.hljs) {
 
 
 
-<link rel="stylesheet" href="style2.css" type="text/css" />
+
+<link rel="stylesheet" href="style2_8.css" type="text/css" />
 
 
 
@@ -83,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -140,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -173,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -182,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -235,20 +234,17 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Home</a>
+      <a class="navbar-brand" href="index.html">WATER EPI Lab</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="team.html">Team</a>
-</li>
-<li>
-  <a href="about.html">Current Projects</a>
+  <a href="about.html">Research</a>
 </li>
 <li>
   <a href="publications.html">Publications</a>
@@ -257,19 +253,10 @@ $(document).ready(function () {
   <a href="https://msph.shinyapps.io/drinking-water-dashboard/">Columbia Drinking Water Dashboard</a>
 </li>
 <li>
-  <a href="ColumbiaArsenicMap.html">Columbia Arsenic Map</a>
+  <a href="team.html">Team</a>
 </li>
 <li>
-  <a href="mailto:&lt;aen2136@cumc.columbia.edu&gt;">
-    <span class="fa fa-envelope fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://github.com/annenigra">
-    <span class="fa fa-github fa-lg"></span>
-     
-  </a>
+  <a href="contact.html">Contact</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -283,113 +270,64 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">Team</h1>
 
 </div>
 
 
 <br> <br> <br> <br> <br>
 <p style="text-align:center;">
-<img src="logo2.png" style="width:70%; border:0px solid #525252" ALIGN = "center"/>
+<img src="logo_transparent_v2.png" style="width:70%; border:0px solid #525252" ALIGN = "center"/>
 </p>
-<br> <br>
-<p style="color:black;font-size:300%">
-<b>Team</b>
+<p><br> <br> <br></p>
+<p style="color:black;font-size:150%">
+<b>Principal Investigator</b>
 </p>
-<br>
-<img src="ANigra_cropped_headshot.jpg" style="float: left; margin-right: 15px; width:180px; border:2px solid #525252" ALIGN = "left" HSPACE="10" VSPACE="10"/>
-<br> <br> <b>Annie Nigra, ScM, PhD, Assistant Professor</b><br> <a
+<p><a
 href="https://www.publichealth.columbia.edu/profile/anne-annie-nigra-phd">Annie
-(she/her)</a> is an environmental epidemiologist and environmental
-health scientist, and an Assistant Professor in the <a
+Nigra</a>, ScM, PhD, is an environmental epidemiologist and Assistant
+Professor in the <a
 href="https://www.mailman.columbia.edu/academics/departments/environmental-health-sciences-ehs">Department
 of Environmental Health Sciences</a> at the Columbia University <a
 href="https://www.mailman.columbia.edu/">Mailman School of Public
-Health</a>. In addition to leading the WATER EPI Lab, Annie leads the
-Research Experiences and Training Coordination Core for the <a
+Health</a>. In addition to leading the WATER EPI Lab, Annie is the
+Director of the <a
+href="https://www.publichealth.columbia.edu/academics/departments/environmental-health-sciences/programs/non-degree-offerings/earth-program">EARTH
+Program</a> and is engaged with the <a
 href="https://www.mailman.columbia.edu/research/columbia-superfund-research-program">Columbia
 University Superfund Research Program</a> and the <a
-href="https://www.publichealth.columbia.edu/academics/departments/environmental-health-sciences/programs/non-degree-offerings/earth-program">EARTH
-Program</a>. Outside of the Lab, you can find Annie trail running,
-hiking, and running/biking around the NYC public park system with her
-family. <br> <br> <br> <br>
-<img src="ilan.jpg" style="float: left; margin-right: 15px; width:180px; border:2px solid #525252" ALIGN = "left" HSPACE="10" VSPACE="10"/>
-<br> <b>Ilan Cerna-Turoff, MA, MPH, PhD, Postdoctoral Research
-Scientist</b><br> Ilan is an epidemiologist whose research examines the
-associations between social, environmental, and climate
-related-exposures and health, mainly in low- and middle-income countries
-and in populations under 18 years of age. He also is a methodologist who
-adapts casual inference methods to challenging population-based
-exposures, with the goal of improving evidence where it is lacking and
-providing policy-actionable information. Ilan currently serves as a
-Postdoctoral Research Scientist in support of study design and analysis
-for several projects with the Lab, including a study of how
-Environmental Protection Agency (EPA) policy change in regulating water
-arsenic levels influenced maternal and child health in the state of
-California. You can find Ilan on <a
-href="https://www.linkedin.com/in/ilancernaturoff/">LinkedIn</a> and
-<a href = "mailto: t2208@cumc.columbia.edu ">by email</a>. <br> <br>
-<br> <br> <br> <br> <br> <br>
-<img src="wil.JPEG" style="float: left; margin-right: 15px; width:180px; border:2px solid #525252" ALIGN = "left" HSPACE="10" VSPACE="10"/>
-<br> <b>Wil Lieberman-Cribbin, MPH, PhD candidate</b><br> Wil is a PhD
-candidate in Environmental Health Sciences at Columbia University’s
-Mailman School of Public Health. He studies the relationship between
-metal exposures in drinking water and the body and how these exposures
-are associated with cardiovascular disease in American Indians
-participating in the Strong Heart Study. Wil also studies epigenetic
-biomarkers of lead exposure and relationships between metal exposures
-and DNA methylation signatures. You can find Wil on <a
-href="https://www.linkedin.com/in/wil-lieberman-cribbin-7b633246">LinkedIn</a>,
-<a href="https://twitter.com/Wil_LC1">Twitter</a>, and
-<a href = "mailto: wfl2112@cumc.columbia.edu ">by email</a>. <br> <br>
-<br> <br> <br> <br> <br> <br>
-<img src="irene.jpg" style="float: left; margin-right: 15px; width:180px; border:2px solid #525252" ALIGN = "left" HSPACE="10" VSPACE="10"/>
-<br> <b>Irene Martinez-Morata, MD, MPH, PhD candidate</b><br> Irene is a
-PhD candidate in Environmental Health Sciences at Columbia University’s
-Mailman School of Public Health. Her current research with the WATER EPI
-Lab focuses on understanding and uncovering major drivers of drinking
-water contaminant disparities in the US and their impact on communities’
-health, with a focus on structural racism and social vulnerability
-factors. She is interested in identifying and developing innovative
-prevention and mitigation strategies to potentially tackle pressing
-environmental justice concerns affecting historically marginalized
-communities in the US. <br> <br> <br> <br> <br>
-<img src="kevin.jpg" style="float: left; margin-right: 15px; width:180px; border:2px solid #525252" ALIGN = "left" HSPACE="10" VSPACE="10"/>
-<br> <b>Kevin Patterson MPH, PhD student</b><br> Kevin is a Diné PhD
-student in Environmental Health Sciences at Columbia University’s
-Mailman School of Public Health. His research investigates the
-distribution of metal exposures (uranium, arsenic, etc.) in groundwater
-and diet across US indigenous communities and their relationship with
-chronic health conditions. To do this, he relies on epidemiology,
-biostatistical and qualitative methods. He aims to inform tribal and
-federal regulations to reduce environmental exposures in rural,
-historically marginalized communities. He is currently a Superfund
-Research Program Trainee at Columbia and Gates Millennium Scholar. He
-holds an MPH in Environmental Health Sciences from Columbia Mailman
-School of Public Health and a BA from Dartmouth College. He seeks to
-expand research capacity in indigenous health and strives to increase
-Native representation in STEM. Kevin is an <a
-href="https://agentsofchangeinej.org/fellows/kevin-patterson/">Agents of
-Change Fellow.</a> You can reach Kevin
-<a href = "mailto: kpp2126@cumc.columbia.edu ">by email</a>. <br> <br>
-<br> <br> <br> <br> <br>
-<img src="rae.jpeg" style="float: left; margin-right: 15px; width:180px; border:2px solid #525252" ALIGN = "left" HSPACE="10" VSPACE="10"/>
-<br> <b>Raenita (Rae) Spriggs MPH, PhD student</b><br> Rae (she/her) is
-a second year EHS doctoral student from San Diego, CA. She has two
-ongoing research projects. One project is exploring and characterizing
-multiple environmental exposures (drinking water quality, extreme heat,
-etc.) impacting U.S. correctional facilities. The other project is
-evaluating temporal trends in mental health related mortality in
-response to extreme climate events such as tropical cyclones. Rae’s work
-sits at the intersection of climate change, environmental justice, and
-mental health. <br> <br> <br> <b>Tessa R Bloomquist, MPH, PhD
-candidate</b><br> <b>Ishika Kaushal, MPH student</b><br> <b>Adina
-Cazacu-De Luca, undergraduate student</b><br> <br> <br> <br> <br>
+href="https://www.publichealth.columbia.edu/research/centers/columbia-center-childrens-environmental-health">Columbia
+Center for Children’s Environmental Health</a>.</p>
+<p><br></p>
 <p style="color:black;font-size:150%">
-<b>Prior team members</b>
+<b>Staff</b>
 </p>
-<p><b>Maya Spaur, ScM, PhD,</b> now a Postdoc at NCI<br> <b>Filippo
-Ravalli, MPH,</b> now a MD student at Columbia University<br> <b>Ellen
-Bannon, MPH</b></p>
+<p>Tushara Rajeev, MSPH — Staff Associate <br> Yutong Chen, MS — Staff
+Associate <br></p>
+<p style="color:black;font-size:150%">
+<b>Predoctoral Students</b>
+</p>
+<p>Kevin Patterson, MPH <br> Tessa Bloomquist, MPH <br> Raenita Spriggs,
+MPH <br> Ellen Bannon, MPH <br></p>
+<p style="color:black;font-size:150%">
+<b>Postdoctoral Scholars</b>
+</p>
+<p>Katrina Simon, PhD <br></p>
+<p style="color:black;font-size:150%">
+<b>Research Assistants, MPH/MS Students, and Undergraduate Students</b>
+</p>
+<p>Grace Cammarata, MPH student <br> Jeremias Iraheta, MPH student
+<br></p>
+<p style="color:black;font-size:150%">
+<b>Lab Alumni</b>
+</p>
+<p>Wil Lieberman-Cribbin, MPH, PhD — now an Assistant Professor at
+Northwell Health <br> Irene Martinez-Morata, MPH, MD, PhD — now an
+Epidemiologist at Vital Strategies <br> Maya Spaur, ScM, PhD — now a
+Postdoctoral Fellow at NCI <br> Filippo Ravalli, MPH — now an MD student
+at Columbia University <br> Adina Cazacu-De Luca — now an MD/PhD student
+at Harvard University <br></p>
+<p><br></p>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
@@ -401,10 +339,10 @@ Bannon, MPH</b></p>
 &nbsp;
 <hr />
 <p style="text-align:center;">
-<img src="logo2.png" style="width:40%; border:0px solid #525252" ALIGN = "center"/>
+<img src="logo_transparent_v2.png" style="width:40%; border:0px solid #525252" ALIGN = "center"/>
 </p>
 <br>
-<p style="text-align: center;font-family: Avenir;font-size:100%"><b>Contact:</b></a></p>
+<p style="text-align: center;font-family: Century;font-size:100%"><b>Contact:</b></a></p>
 <p style="text-align: center;"><span style="color: #808080;">Annie Nigra, ScM, PhD<br>
 Assistant Professor of Environmental Health Sciences<br>
 Columbia University Mailman School of Public Health<br>
