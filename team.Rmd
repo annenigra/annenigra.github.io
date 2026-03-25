@@ -21,7 +21,6 @@ output:
 <p style="color:black;font-size:150%"><b>Principal Investigator</b></p>
 
 [Annie Nigra](https://www.publichealth.columbia.edu/profile/anne-annie-nigra-phd), ScM, PhD, is an environmental epidemiologist and Assistant Professor in the [Department of Environmental Health Sciences](https://www.mailman.columbia.edu/academics/departments/environmental-health-sciences-ehs) at the Columbia University [Mailman School of Public Health](https://www.mailman.columbia.edu/). In addition to leading the WATER EPI Lab, Annie is the Director of the [EARTH Program](https://www.publichealth.columbia.edu/academics/departments/environmental-health-sciences/programs/non-degree-offerings/earth-program) and is engaged with the [Columbia University Superfund Research Program](https://www.mailman.columbia.edu/research/columbia-superfund-research-program) and the [Columbia Center for Children's Environmental Health](https://www.publichealth.columbia.edu/research/centers/columbia-center-childrens-environmental-health).
-
 <br>
 
 <p style="color:black;font-size:150%"><b>Staff</b></p>
