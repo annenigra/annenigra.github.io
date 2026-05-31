@@ -10,6 +10,8 @@ navbar:
       href: publications.html
     - text: "WATER EPI Lab Drinking Water Dashboard"
       href: weldashboard.html
+    - text: "Columbia Drinking Water Dashboard"
+      href: https://msph.shinyapps.io/drinking-water-dashboard/
     - text: "Team"
       href: team.html
     - text: "Contact"
