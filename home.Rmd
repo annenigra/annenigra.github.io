@@ -9,8 +9,6 @@ output:
 
 ::: {.hero}
 <img class="logo" src="logo_transparent_v2.png" alt="WATER EPI Lab: WATer Exposure Research for Epidemiology, Policy, and Intervention Lab"/>
-
-<p class="tag">Justice-oriented research on US drinking water epidemiology and exposure assessment, metal exposures, chronic disease, and maternal and infant health.</p>
 :::
 
 <figure class="hero-photo">
@@ -18,9 +16,9 @@ output:
 </figure>
 
 ::: {.prose style="margin-top:72px"}
-<p class="eyebrow">Welcome</p>
+<p class="eyebrow">Who we are</p>
 
-## Who we are {style="margin-top:0"}
+## Welcome {style="margin-top:0"}
 
 Our lab is based in the [Department of Epidemiology](https://geiselmed.dartmouth.edu/epidemiology/) in the [Geisel School of Medicine at Dartmouth College](https://geiselmed.dartmouth.edu/). Our team conducts justice-oriented research on US drinking water epidemiology and exposure assessment, metal exposures, chronic disease, and maternal and infant health, leveraging collaborations with several large NIH-funded cohorts.
 

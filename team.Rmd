@@ -39,7 +39,7 @@ output:
 
 <ul class="people">
 <li><span class="name">Katrina Simon, PhD</span></li>
-<li><span class="name">Tessa Bloomquist, MPH</span></li>
+<li><span class="name">Tessa Bloomquist, MPH, PhD</span></li>
 </ul>
 
 #### Research Assistants, MPH/MS Students, and Undergraduate Students
