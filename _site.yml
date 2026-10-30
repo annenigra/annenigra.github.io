@@ -17,6 +17,6 @@ navbar:
 output:
   html_document:
     theme: flatly
-    css: style2_8.css
+    css: waterepi.css
     includes:
       after_body: footerc_edit.Rhtml

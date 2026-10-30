@@ -1,0 +1,69 @@
+---
+title: "Team"
+description: "Meet the WATER EPI Lab team at Dartmouth"
+output:
+  html_document:
+    includes:
+      after_body: footerc_edit.Rhtml
+---
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="text-align:center;">
+<img src="logo_transparent_v2.png" style="width:70%; border:0px solid #525252" ALIGN = "center"/>
+</p>
+<br>
+<br>
+<br>
+
+<p style="color:black;font-size:150%"><b>Principal Investigator</b></p>
+
+[Annie Nigra](https://www.publichealth.columbia.edu/profile/anne-annie-nigra-phd), ScM, PhD, is an environmental epidemiologist and Assistant Professor in the [Department of Epidemiology](https://geiselmed.dartmouth.edu/epidemiology/) in the [Geisel School of Medicine at Dartmouth College](https://geiselmed.dartmouth.edu/). In addition to leading the WATER EPI Lab, Annie is the Director of the [EARTH Program](https://www.publichealth.columbia.edu/academics/departments/environmental-health-sciences/programs/non-degree-offerings/earth-program) and is engaged with several large research centers.
+<br>
+
+<p style="color:black;font-size:150%"><b>Staff</b></p>
+
+Tushara Rajeev, MSPH — Staff Associate
+<br>
+Yutong Chen, MS — Staff Associate
+<br>
+
+<p style="color:black;font-size:150%"><b>Predoctoral Students</b></p>
+
+Kevin Patterson, MPH
+<br>
+Tessa Bloomquist, MPH
+<br>
+Raenita Spriggs, MPH
+<br>
+Ellen Bannon, MPH
+<br>
+
+<p style="color:black;font-size:150%"><b>Postdoctoral Scholars</b></p>
+
+Katrina Simon, PhD
+<br>
+
+<p style="color:black;font-size:150%"><b>Research Assistants, MPH/MS Students, and Undergraduate Students</b></p>
+
+Grace Cammarata, MPH student
+<br>
+Jeremias Iraheta, MPH student
+<br>
+
+<p style="color:black;font-size:150%"><b>Lab Alumni</b></p>
+
+Wil Lieberman-Cribbin, MPH, PhD — now an Assistant Professor at Northwell Health
+<br>
+Irene Martinez-Morata, MPH, MD, PhD — now an Epidemiologist at Vital Strategies
+<br>
+Maya Spaur, ScM, PhD — now a Postdoctoral Fellow at NCI
+<br>
+Filippo Ravalli, MPH — now an MD student at Columbia University
+<br>
+Adina Cazacu-De Luca — now an MD/PhD student at Harvard University
+<br>
+
+<br>

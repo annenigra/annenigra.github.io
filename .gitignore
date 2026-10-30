@@ -3,3 +3,4 @@
 .Rdata
 *.Rproj
 bootswatch
+.DS_Store
