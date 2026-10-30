@@ -24,15 +24,13 @@ output:
 #### Staff
 
 <ul class="people">
-<li><span class="name">Tushara Rajeev, MSPH</span><span class="what">Staff Associate</span></li>
-<li><span class="name">Yutong Chen, MS</span><span class="what">Staff Associate</span></li>
+<li><span class="name">Maya Spaur, ScM, PhD</span><span class="what">Senior Research Scientist</span></li>
 </ul>
 
 #### Predoctoral Students
 
 <ul class="people">
 <li><span class="name">Kevin Patterson, MPH</span></li>
-<li><span class="name">Tessa Bloomquist, MPH</span></li>
 <li><span class="name">Raenita Spriggs, MPH</span></li>
 <li><span class="name">Ellen Bannon, MPH</span></li>
 </ul>
@@ -41,6 +39,7 @@ output:
 
 <ul class="people">
 <li><span class="name">Katrina Simon, PhD</span></li>
+<li><span class="name">Tessa Bloomquist, MPH</span></li>
 </ul>
 
 #### Research Assistants, MPH/MS Students, and Undergraduate Students
@@ -53,9 +52,10 @@ output:
 #### Lab Alumni
 
 <ul class="people alumni">
+<li><span class="name">Tushara Rajeev, MSPH</span><span class="what">now a PhD candidate at CUNY School of Public Health</span></li>
+<li><span class="name">Yutong Chen, MS</span><span class="what">now a PhD candidate at Rutgers School of Public Health</span></li>
 <li><span class="name">Wil Lieberman-Cribbin, MPH, PhD</span><span class="what">now an Assistant Professor at Northwell Health</span></li>
 <li><span class="name">Irene Martinez-Morata, MPH, MD, PhD</span><span class="what">now an Epidemiologist at Vital Strategies</span></li>
-<li><span class="name">Maya Spaur, ScM, PhD</span><span class="what">now a Postdoctoral Fellow at NCI</span></li>
 <li><span class="name">Filippo Ravalli, MPH</span><span class="what">now an MD student at Columbia University</span></li>
 <li><span class="name">Adina Cazacu-De Luca</span><span class="what">now an MD/PhD student at Harvard University</span></li>
 </ul>

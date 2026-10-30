@@ -1,5 +1,5 @@
 ---
-title: "WATER EPI Lab Drinking Water Dashboard"
+title: "WATER EPI Lab Drinking Water Repository"
 description: "Interactive dashboard and repository of public water contaminant exposure estimates"
 output:
   html_document:
@@ -10,11 +10,11 @@ output:
 ::: {.page-head}
 <p class="eyebrow">Open data</p>
 
-# WATER EPI Lab Drinking Water Dashboard
+# WATER EPI Lab Drinking Water Repository
 
 <p class="lede">An interactive map and data repository of regulated contaminant concentration estimates in US community water systems.</p>
 
-<p style="margin-top:26px"><a class="btn-water" href="https://experience.arcgis.com/experience/e8bd96af1a26455cb68e35e19c2d3682">Open the Dashboard</a>&nbsp; <a class="btn-water btn-ghost" href="https://zenodo.org/records/20443826">Download the data (Zenodo)</a></p>
+<p style="margin-top:26px"><a class="btn-water" href="https://experience.arcgis.com/experience/e8bd96af1a26455cb68e35e19c2d3682">Open the Dashboard</a>&nbsp; <a class="btn-water" href="https://zenodo.org/records/20443826">Download the data (Zenodo)</a></p>
 :::
 
 ::: {.prose}

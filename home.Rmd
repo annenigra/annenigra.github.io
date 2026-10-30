@@ -44,8 +44,8 @@ Evaluations of federal drinking water policies and regulatory changes.
 :::
 :::
 
-<p style="margin-top:40px"><a class="btn-water" href="research.html">Our research</a>&nbsp; <a class="btn-water btn-ghost" href="https://zenodo.org/records/20443826">WATER EPI Lab Drinking Water Repository</a></p>
+<p style="margin-top:40px"><a class="btn-water" href="research.html">Our research</a>&nbsp; <a class="btn-water" href="https://zenodo.org/records/20443826">WATER EPI Lab Drinking Water Repository</a></p>
 
 ::: {.band .band-ink style="margin-top:88px;margin-bottom:-96px"}
-<p class="oath"><a href="https://www.publichealth.columbia.edu/about/mission-history/public-health-oath#:~:text=Health%20is%20a%20human%20right.">“Health is a human right. The public health community exists to safeguard that right.”</a><span class="src">The Public Health Oath</span></p>
+<p class="oath">“Health is a human right. The public health community exists to safeguard that right.”<span class="src"><a href="https://www.publichealth.columbia.edu/about/mission-history/public-health-oath#:~:text=Health%20is%20a%20human%20right.">The Public Health Oath</a></span></p>
 :::
