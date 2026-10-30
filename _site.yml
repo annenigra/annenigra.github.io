@@ -5,7 +5,7 @@ navbar:
   title: "WATER EPI Lab"
   left:
     - text: "Research"
-      href: about.html
+      href: research.html
     - text: "Publications"
       href: publications.html
     - text: "WATER EPI Lab Drinking Water Dashboard"
