@@ -18,11 +18,11 @@ output:
 ## Welcome {style="margin-top:0"}
 ::: {.prose style="margin-top:22px"}
 <p class="eyebrow">Who we are</p>
-Our lab is based in the [Department of Epidemiology](https://geiselmed.dartmouth.edu/epidemiology/) in the [Geisel School of Medicine at Dartmouth College](https://geiselmed.dartmouth.edu/). Our team conducts justice-oriented research on US drinking water epidemiology and exposure assessment, metal exposures, chronic disease, and maternal and infant health, leveraging collaborations with several large NIH-funded cohorts.
+Our lab is based in the [Department of Epidemiology](https://geiselmed.dartmouth.edu/epidemiology/) in the [Geisel School of Medicine at Dartmouth College](https://geiselmed.dartmouth.edu/). Our team conducts public health research on US drinking water epidemiology and exposure assessment, metal exposures, chronic disease, and maternal, infant, and child health, leveraging collaborations with several large NIH-funded cohorts.
 
-Recent work by our group includes epidemiologic analyses of public water contaminants and infant, maternal, and chronic adverse outcomes; methodological advances for public water exposure assessment; evaluations of federal drinking water policies and regulatory changes; and analyses of injustices in public drinking water contaminants.
+Recent work by our group includes epidemiologic analyses of public water contaminants and infant, maternal, and chronic adverse outcomes; methodological advances for public water exposure assessment; evaluations of federal drinking water interventions; and evaluating sociodemographic differences in public drinking water contaminants.
 
-Our long-term scientific goal is to reduce disparities in environmental exposures and adverse health outcomes, and improve health for all. By advancing public water exposure assessment, epidemiology, and policy/intervention work across the US, we aim to advance environmental justice, improve health equity, and directly inform regulations and other exposure-reduction interventions.
+Our long-term scientific goal is to reduce disparities in environmental exposures and adverse health outcomes, and improve health for all. By advancing public water exposure assessment, epidemiology, and interventions across the US, we aim to advance environmental health, improve health equity, and directly inform regulations and other exposure-reduction interventions.
 :::
 
 ::: {.pillars}
