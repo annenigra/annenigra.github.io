@@ -269,3 +269,32 @@ blockquote,.oath{
 h1,h2,h3{overflow-wrap:break-word}
 .pubs li:first-child{border-top:0;padding-top:0}
 .pubs li:first-child:before{top:0}
+
+/* =========================================================
+   Color scheme: "Upper Valley Seasons"
+   Dartmouth palette (geiselmed.dartmouth.edu/about/shield):
+   River Navy #003C73 · River Blue #267ABA · Dartmouth Green #00693E
+   Forest Green #12312B · Summer Yellow #F5DC69 · Bonfire Orange #FFA00F
+   Granite Gray #424141 · Gray 1 #F7F7F7 · Gray 2 #E2E2E2
+   ========================================================= */
+:root{--paper:#FFFFFF;--card:#F7F7F7;--mist:#F7F7F7;--ink:#2B2A2A;--mute:#424141;--line:#E2E2E2;
+  --tide:#003C73;--river:#00693E;--shallow:#267ABA;--sediment:#00693E}
+body{background:var(--paper);color:var(--ink)} p,li{color:var(--ink)}
+h1,h2,h3,h4,.navbar-default .navbar-brand{color:#003C73}
+.navbar-default{background:rgba(255,255,255,.92)}
+.navbar-default:after,.site-footer:before{background:linear-gradient(90deg,#003C73 0% 20%,#267ABA 20% 40%,#00693E 40% 60%,#F5DC69 60% 80%,#FFA00F 80% 100%)}
+.navbar-default .navbar-nav>li>a{color:#2B2A2A}
+.navbar-default .navbar-nav>li>a:after{background:#FFA00F}
+a{color:#003C73;text-decoration-color:rgba(0,60,115,.35)} a:hover,a:focus{color:#00693E}
+.eyebrow,.role{color:#00693E}
+.btn-water,a.btn-water{background:#267ABA;color:#fff} .btn-water:hover,.btn-water:focus{background:#003C73;color:#fff}
+p a.btn-water + a.btn-water{background:#00693E} p a.btn-water + a.btn-water:hover{background:#12312B}
+.pillar{border-color:#267ABA} .pillar:nth-child(2){border-color:#00693E} .pillar:nth-child(3){border-color:#FFA00F}
+.pillar p{color:#424141}
+.callout{border-left-color:#F5DC69}
+.band-ink{background:#12312B} .band-ink a{color:#fff;text-decoration-color:rgba(245,220,105,.7)} .band-ink a:hover{color:#F5DC69}
+.site-footer{background:#003C73;color:#D2DEEA} .site-footer p{color:#D2DEEA} .site-footer h4{color:#F5DC69}
+.site-footer a:hover{color:#F5DC69}
+.site-footer .icons a:hover{background:#F5DC69;border-color:#F5DC69;color:#003C73}
+.hero-photo img{box-shadow:0 20px 50px -24px rgba(0,60,115,.55)}
+.media-list a:hover{border-color:#267ABA;color:#003C73}
