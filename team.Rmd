@@ -18,7 +18,7 @@ output:
 
 ### Annie Nigra, ScM, PhD
 
-[Annie Nigra](https://www.publichealth.columbia.edu/profile/anne-annie-nigra-phd), ScM, PhD, is an environmental epidemiologist and Assistant Professor in the [Department of Epidemiology](https://geiselmed.dartmouth.edu/epidemiology/) in the [Geisel School of Medicine at Dartmouth College](https://geiselmed.dartmouth.edu/). In addition to leading the WATER EPI Lab, Annie is the Director of the [EARTH Program](https://www.publichealth.columbia.edu/academics/departments/environmental-health-sciences/programs/non-degree-offerings/earth-program) and is engaged with several large research centers.
+[Annie Nigra](https://geiselmed.dartmouth.edu/epidemiology/profile/anne-e-nigra-phd/), ScM, PhD, is an environmental epidemiologist and Assistant Professor in the [Department of Epidemiology](https://geiselmed.dartmouth.edu/epidemiology/) in the [Geisel School of Medicine at Dartmouth College](https://geiselmed.dartmouth.edu/). In addition to leading the WATER EPI Lab, Annie is the Director of the [EARTH Program](https://www.publichealth.columbia.edu/academics/departments/environmental-health-sciences/programs/non-degree-offerings/earth-program) and is engaged with several large research centers.
 :::
 
 #### Staff
